@@ -1,0 +1,36 @@
+nav.navbar.navbar-light.bg-light.aos-init.aos-animate {
+    background-color:plum;
+}
+.navbar-brand {
+    font-family:cursive;
+}
+
+.card {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.success, .error {
+    color: white;
+    padding: 5px;
+    margin: 5px 0 15px 0;
+}
+.success {
+    background: green;
+}
+
+.danger {
+    background: red;
+}
+@media (max-width:700px) {
+    canvas {
+        display:flex;
+        position: absolute;
+        height: 100%;
+    }
+}
+@media (max-width: 500px) {
+    canvas {
+        display:flex;
+        position: absolute;
+        height: 100%;
+    }
+}
